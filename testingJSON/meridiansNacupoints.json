@@ -1,0 +1,590 @@
+{
+  "liver": {
+    "id": "liver",
+    "element": "wood",
+    "yinYang": "yin",
+    "points": [
+      {
+        "id": "LIV-1",
+        "name": "LIV-1",
+        "level": 1,
+        "element": "wood",
+        "description": "Description"
+      },
+      {
+        "id": "LIV-2",
+        "name": "LIV-2",
+        "level": 2,
+        "element": "fire",
+        "description": "Description"
+      },
+      {
+        "id": "LIV-3",
+        "name": "LIV-3",
+        "level": 3,
+        "element": "earth",
+        "description": "Description"
+      },
+      {
+        "id": "LIV-4",
+        "name": "LIV-4",
+        "level": 4,
+        "element": "metal",
+        "description": "Description"
+      },
+      {
+        "id": "LIV-8",
+        "name": "LIV-8",
+        "level": 5,
+        "element": "water",
+        "description": "Description"
+      },
+      {
+        "id": "LIV-3",
+        "name": "LIV-8",
+        "level": 0,
+        "element": "master",
+        "description": "Description"
+      }
+    ]
+  },
+  "gallbladder": {
+    "id": "gallbladder",
+    "element": "wood",
+    "yinYang": "yang",
+    "points": [
+      {
+        "id": "GB-44",
+        "name": "GB-44",
+        "level": 1,
+        "element": "metal",
+        "description": "Description"
+      },
+      {
+        "id": "GB-43",
+        "name": "GB-43",
+        "level": 2,
+        "element": "water",
+        "description": "Description"
+      },
+      {
+        "id": "GB-41",
+        "name": "GB-41",
+        "level": 3,
+        "element": "wood",
+        "description": "Description"
+      },
+      {
+        "id": "GB-38",
+        "name": "GB-38",
+        "level": 4,
+        "element": "fire",
+        "description": "Description"
+      },
+      {
+        "id": "GB-34",
+        "name": "GB-34",
+        "level": 5,
+        "element": "earth",
+        "description": "Description"
+      },
+      {
+        "id": "GB-40",
+        "name": "GB-40",
+        "level": 0,
+        "element": "master",
+        "description": "Description"
+      }
+    ]
+  },
+  "heart": {
+    "id": "heart",
+    "element": "fire",
+    "yinYang": "yin",
+    "points": [
+      {
+        "id": "HT-9",
+        "name": "HT-9",
+        "level": 1,
+        "element": "wood",
+        "description": "Description"
+      },
+      {
+        "id": "HT-8",
+        "name": "HT-8",
+        "level": 2,
+        "element": "fire",
+        "description": "Description"
+      },
+      {
+        "id": "HT-7",
+        "name": "HT-7",
+        "level": 3,
+        "element": "earth",
+        "description": "Description"
+      },
+      {
+        "id": "HT-4",
+        "name": "HT-4",
+        "level": 4,
+        "element": "metal",
+        "description": "Description"
+      },
+      {
+        "id": "HT-3",
+        "name": "HT-3",
+        "level": 5,
+        "element": "water",
+        "description": "Description"
+      },
+      {
+        "id": "HT-7",
+        "name": "HT-7",
+        "level": 0,
+        "element": "master",
+        "description": "Description"
+      }
+    ]
+  },
+  "smallintestine": {
+    "id": "smallintestine",
+    "element": "fire",
+    "yinYang": "yang",
+    "points": [
+      {
+        "id": "SI-1",
+        "name": "SI-1",
+        "level": 1,
+        "element": "metal",
+        "description": "Description"
+      },
+      {
+        "id": "SI-2",
+        "name": "SI-2",
+        "level": 2,
+        "element": "water",
+        "description": "Description"
+      },
+      {
+        "id": "SI-3",
+        "name": "SI-3",
+        "level": 3,
+        "element": "wood",
+        "description": "Description"
+      },
+      {
+        "id": "SI-5",
+        "name": "SI-5",
+        "level": 4,
+        "element": "fire",
+        "description": "Description"
+      },
+      {
+        "id": "SI-8",
+        "name": "SI-8",
+        "level": 5,
+        "element": "earth",
+        "description": "Description"
+      },
+      {
+        "id": "SI-",
+        "name": "SI-4",
+        "level": 0,
+        "element": "master",
+        "description": "Description"
+      }
+    ]
+  },
+  "pericardium": {
+    "id": "pericardium",
+    "element": "fire",
+    "yinYang": "yin",
+    "points": [
+      {
+        "id": "PC-9",
+        "name": "PC-9",
+        "level": 1,
+        "element": "wood",
+        "description": "Description"
+      },
+      {
+        "id": "PC-8",
+        "name": "PC-8",
+        "level": 2,
+        "element": "fire",
+        "description": "Description"
+      },
+      {
+        "id": "PC-7",
+        "name": "PC-7",
+        "level": 3,
+        "element": "earth",
+        "description": "Description"
+      },
+      {
+        "id": "PC-5",
+        "name": "PC-5",
+        "level": 4,
+        "element": "metal",
+        "description": "Description"
+      },
+      {
+        "id": "PC-3",
+        "name": "PC-3",
+        "level": 5,
+        "element": "water",
+        "description": "Description"
+      },
+      {
+        "id": "PC-7",
+        "name": "PC-7",
+        "level": 0,
+        "element": "master",
+        "description": "Description"
+      }
+    ]
+  },
+  "tripleheater": {
+    "id": "pericardium",
+    "element": "fire",
+    "yinYang": "yang",
+    "points": [
+      {
+        "id": "TH-1",
+        "name": "TH-1",
+        "level": 1,
+        "element": "metal",
+        "description": "Description"
+      },
+      {
+        "id": "TH-2",
+        "name": "TH-2",
+        "level": 2,
+        "element": "water",
+        "description": "Description"
+      },
+      {
+        "id": "TH-3",
+        "name": "TH-3",
+        "level": 3,
+        "element": "wood",
+        "description": "Description"
+      },
+      {
+        "id": "TH-6",
+        "name": "TH-6",
+        "level": 4,
+        "element": "fire",
+        "description": "Description"
+      },
+      {
+        "id": "TH-10",
+        "name": "TH-10",
+        "level": 5,
+        "element": "earth",
+        "description": "Description"
+      },
+      {
+        "id": "TH-4",
+        "name": "TH-4",
+        "level": 0,
+        "element": "master",
+        "description": "Description"
+      }
+    ]
+  },
+  "spleen": {
+    "id": "spleen",
+    "element": "earth",
+    "yinYang": "yin",
+    "points": [
+      {
+        "id": "SP-1",
+        "name": "SP-1",
+        "level": 1,
+        "element": "wood",
+        "description": "Description"
+      },
+      {
+        "id": "SP-2",
+        "name": "SP-2",
+        "level": 2,
+        "element": "fire",
+        "description": "Description"
+      },
+      {
+        "id": "SP-3",
+        "name": "SP-3",
+        "level": 3,
+        "element": "earth",
+        "description": "Description"
+      },
+      {
+        "id": "SP-5",
+        "name": "SP-5",
+        "level": 4,
+        "element": "metal",
+        "description": "Description"
+      },
+      {
+        "id": "SP-9",
+        "name": "SP-9",
+        "level": 5,
+        "element": "water",
+        "description": "Description"
+      },
+      {
+        "id": "SP-3",
+        "name": "SP-3",
+        "level": 0,
+        "element": "master",
+        "description": "Description"
+      }
+    ]
+  },
+  "stomach": {
+    "id": "stomach",
+    "element": "earth",
+    "yinYang": "yang",
+    "points": [
+      {
+        "id": "ST-45",
+        "name": "ST-45",
+        "level": 1,
+        "element": "metal",
+        "description": "Description"
+      },
+      {
+        "id": "ST-44",
+        "name": "ST-44",
+        "level": 2,
+        "element": "water",
+        "description": "Description"
+      },
+      {
+        "id": "ST-43",
+        "name": "ST-43",
+        "level": 3,
+        "element": "wood",
+        "description": "Description"
+      },
+      {
+        "id": "ST-41",
+        "name": "ST-41",
+        "level": 4,
+        "element": "fire",
+        "description": "Description"
+      },
+      {
+        "id": "ST-36",
+        "name": "ST-36",
+        "level": 5,
+        "element": "earth",
+        "description": "Description"
+      },
+      {
+        "id": "ST-42",
+        "name": "ST-42",
+        "level": 0,
+        "element": "master",
+        "description": "Description"
+      }
+    ]
+  },
+  "lung": {
+    "id": "lung",
+    "element": "metal",
+    "yinYang": "yin",
+    "points": [
+      {
+        "id": "LU-11",
+        "name": "LU-11",
+        "level": 1,
+        "element": "wood",
+        "description": "Description"
+      },
+      {
+        "id": "LU-10",
+        "name": "LU-10",
+        "level": 2,
+        "element": "fire",
+        "description": "Description"
+      },
+      {
+        "id": "LU-9",
+        "name": "LU-9",
+        "level": 3,
+        "element": "earth",
+        "description": "Description"
+      },
+      {
+        "id": "LU-8",
+        "name": "LU-8",
+        "level": 4,
+        "element": "metal",
+        "description": "Description"
+      },
+      {
+        "id": "LU-5",
+        "name": "LU-5",
+        "level": 5,
+        "element": "water",
+        "description": "Description"
+      },
+      {
+        "id": "LU-9",
+        "name": "LU-9",
+        "level": 0,
+        "element": "master",
+        "description": "Description"
+      }
+    ]
+  },
+  "largeintestine": {
+    "id": "largeintestine",
+    "element": "metal",
+    "yinYang": "yang",
+    "points": [
+      {
+        "id": "LI-1",
+        "name": "LI-1",
+        "level": 1,
+        "element": "metal",
+        "description": "Description"
+      },
+      {
+        "id": "LI-2",
+        "name": "LI-2",
+        "level": 2,
+        "element": "water",
+        "description": "Description"
+      },
+      {
+        "id": "LI-3",
+        "name": "LI-3",
+        "level": 3,
+        "element": "wood",
+        "description": "Description"
+      },
+      {
+        "id": "LI-5",
+        "name": "LI-5",
+        "level": 4,
+        "element": "fire",
+        "description": "Description"
+      },
+      {
+        "id": "LI-11",
+        "name": "LI-11",
+        "level": 5,
+        "element": "earth",
+        "description": "Description"
+      },
+      {
+        "id": "LI-4",
+        "name": "LI-4",
+        "level": 0,
+        "element": "master",
+        "description": "Description"
+      }
+    ]
+  },
+  "kidney": {
+    "id": "kidney",
+    "element": "water",
+    "yinYang": "yin",
+    "points": [
+      {
+        "id": "KID-1",
+        "name": "KID-1",
+        "level": 1,
+        "element": "wood",
+        "description": "Description"
+      },
+      {
+        "id": "KID-2",
+        "name": "KID-2",
+        "level": 2,
+        "element": "fire",
+        "description": "Description"
+      },
+      {
+        "id": "KID-3",
+        "name": "KID-3",
+        "level": 3,
+        "element": "earth",
+        "description": "Description"
+      },
+      {
+        "id": "KID-7",
+        "name": "KID-7",
+        "level": 4,
+        "element": "metal",
+        "description": "Description"
+      },
+      {
+        "id": "KID-10",
+        "name": "KID-10",
+        "level": 5,
+        "element": "water",
+        "description": "Description"
+      },
+      {
+        "id": "KID-3",
+        "name": "KID-3",
+        "level": 0,
+        "element": "master",
+        "description": "Description"
+      }
+    ]
+  },
+  "bladder": {
+    "id": "bladder",
+    "element": "water",
+    "yinYang": "yang",
+    "points": [
+      {
+        "id": "BL-67",
+        "name": "BL-67",
+        "level": 1,
+        "element": "metal",
+        "description": "Description"
+      },
+      {
+        "id": "BL-66",
+        "name": "BL-66",
+        "level": 2,
+        "element": "water",
+        "description": "Description"
+      },
+      {
+        "id": "BL-65",
+        "name": "BL-65",
+        "level": 3,
+        "element": "wood",
+        "description": "Description"
+      },
+      {
+        "id": "BL-60",
+        "name": "BL-60",
+        "level": 4,
+        "element": "fire",
+        "description": "Description"
+      },
+      {
+        "id": "BL-40",
+        "name": "BL-40",
+        "level": 5,
+        "element": "earth",
+        "description": "Description"
+      },
+      {
+        "id": "BL-64",
+        "name": "BL-64",
+        "level": 0,
+        "element": "master",
+        "description": "Description"
+      }
+    ]
+  }
+}

@@ -11,6 +11,10 @@
 		B2DB0D332B052A99004EB179 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB0D322B052A99004EB179 /* ContentView.swift */; };
 		B2DB0D352B052A9A004EB179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DB0D342B052A9A004EB179 /* Assets.xcassets */; };
 		B2DB0D382B052A9A004EB179 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DB0D372B052A9A004EB179 /* Preview Assets.xcassets */; };
+		B2DB0D3F2B052B42004EB179 /* meridiansNacupoints.json in Resources */ = {isa = PBXBuildFile; fileRef = B2DB0D3E2B052B42004EB179 /* meridiansNacupoints.json */; };
+		B2DB0D412B052B96004EB179 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB0D402B052B96004EB179 /* Bundle-Decodable.swift */; };
+		B2DB0D432B052BD5004EB179 /* Meridian.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB0D422B052BD5004EB179 /* Meridian.swift */; };
+		B2DB0D452B052BF2004EB179 /* Acupoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB0D442B052BF2004EB179 /* Acupoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		B2DB0D322B052A99004EB179 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B2DB0D342B052A9A004EB179 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2DB0D372B052A9A004EB179 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2DB0D3E2B052B42004EB179 /* meridiansNacupoints.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = meridiansNacupoints.json; sourceTree = "<group>"; };
+		B2DB0D402B052B96004EB179 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		B2DB0D422B052BD5004EB179 /* Meridian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meridian.swift; sourceTree = "<group>"; };
+		B2DB0D442B052BF2004EB179 /* Acupoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acupoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,11 @@
 			children = (
 				B2DB0D302B052A99004EB179 /* testingJSONApp.swift */,
 				B2DB0D322B052A99004EB179 /* ContentView.swift */,
+				B2DB0D422B052BD5004EB179 /* Meridian.swift */,
+				B2DB0D442B052BF2004EB179 /* Acupoint.swift */,
+				B2DB0D402B052B96004EB179 /* Bundle-Decodable.swift */,
 				B2DB0D342B052A9A004EB179 /* Assets.xcassets */,
+				B2DB0D3E2B052B42004EB179 /* meridiansNacupoints.json */,
 				B2DB0D362B052A9A004EB179 /* Preview Content */,
 			);
 			path = testingJSON;
@@ -126,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2DB0D382B052A9A004EB179 /* Preview Assets.xcassets in Resources */,
+				B2DB0D3F2B052B42004EB179 /* meridiansNacupoints.json in Resources */,
 				B2DB0D352B052A9A004EB179 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2DB0D452B052BF2004EB179 /* Acupoint.swift in Sources */,
 				B2DB0D332B052A99004EB179 /* ContentView.swift in Sources */,
 				B2DB0D312B052A99004EB179 /* testingJSONApp.swift in Sources */,
+				B2DB0D432B052BD5004EB179 /* Meridian.swift in Sources */,
+				B2DB0D412B052B96004EB179 /* Bundle-Decodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

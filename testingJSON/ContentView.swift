@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let meridians: [String: Meridian] = Bundle.main.decode("meridiansNacupoints.json")
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("\(meridians.count)")
         }
         .padding()
     }
