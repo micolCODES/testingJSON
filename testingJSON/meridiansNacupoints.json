@@ -4,6 +4,13 @@
     "element": "wood",
     "yinYang": "yin",
     "points": [
+        {
+          "id": "LIV-3",
+          "name": "LIV-8",
+          "level": 0,
+          "element": "master",
+          "description": "Description"
+        },
       {
         "id": "LIV-1",
         "name": "LIV-1",
@@ -38,13 +45,6 @@
         "level": 5,
         "element": "water",
         "description": "Description"
-      },
-      {
-        "id": "LIV-3",
-        "name": "LIV-8",
-        "level": 0,
-        "element": "master",
-        "description": "Description"
       }
     ]
   },
@@ -53,6 +53,13 @@
     "element": "wood",
     "yinYang": "yang",
     "points": [
+        {
+          "id": "GB-40",
+          "name": "GB-40",
+          "level": 0,
+          "element": "master",
+          "description": "Description"
+        },
       {
         "id": "GB-44",
         "name": "GB-44",
@@ -87,13 +94,6 @@
         "level": 5,
         "element": "earth",
         "description": "Description"
-      },
-      {
-        "id": "GB-40",
-        "name": "GB-40",
-        "level": 0,
-        "element": "master",
-        "description": "Description"
       }
     ]
   },
@@ -102,6 +102,13 @@
     "element": "fire",
     "yinYang": "yin",
     "points": [
+        {
+          "id": "HT-7",
+          "name": "HT-7",
+          "level": 0,
+          "element": "master",
+          "description": "Description"
+        },
       {
         "id": "HT-9",
         "name": "HT-9",
@@ -136,21 +143,21 @@
         "level": 5,
         "element": "water",
         "description": "Description"
-      },
-      {
-        "id": "HT-7",
-        "name": "HT-7",
-        "level": 0,
-        "element": "master",
-        "description": "Description"
       }
     ]
   },
-  "smallintestine": {
+  "small intestine": {
     "id": "smallintestine",
     "element": "fire",
     "yinYang": "yang",
     "points": [
+        {
+          "id": "SI-4",
+          "name": "SI-4",
+          "level": 0,
+          "element": "master",
+          "description": "Description"
+        },
       {
         "id": "SI-1",
         "name": "SI-1",
@@ -185,13 +192,6 @@
         "level": 5,
         "element": "earth",
         "description": "Description"
-      },
-      {
-        "id": "SI-",
-        "name": "SI-4",
-        "level": 0,
-        "element": "master",
-        "description": "Description"
       }
     ]
   },
@@ -200,6 +200,13 @@
     "element": "fire",
     "yinYang": "yin",
     "points": [
+        {
+          "id": "PC-7",
+          "name": "PC-7",
+          "level": 0,
+          "element": "master",
+          "description": "Description"
+        },
       {
         "id": "PC-9",
         "name": "PC-9",
@@ -234,21 +241,21 @@
         "level": 5,
         "element": "water",
         "description": "Description"
-      },
-      {
-        "id": "PC-7",
-        "name": "PC-7",
-        "level": 0,
-        "element": "master",
-        "description": "Description"
       }
     ]
   },
-  "tripleheater": {
+  "triple heater": {
     "id": "pericardium",
     "element": "fire",
     "yinYang": "yang",
     "points": [
+        {
+          "id": "TH-4",
+          "name": "TH-4",
+          "level": 0,
+          "element": "master",
+          "description": "Description"
+        },
       {
         "id": "TH-1",
         "name": "TH-1",
@@ -283,13 +290,6 @@
         "level": 5,
         "element": "earth",
         "description": "Description"
-      },
-      {
-        "id": "TH-4",
-        "name": "TH-4",
-        "level": 0,
-        "element": "master",
-        "description": "Description"
       }
     ]
   },
@@ -298,6 +298,13 @@
     "element": "earth",
     "yinYang": "yin",
     "points": [
+        {
+          "id": "SP-3",
+          "name": "SP-3",
+          "level": 0,
+          "element": "master",
+          "description": "Description"
+        },
       {
         "id": "SP-1",
         "name": "SP-1",
@@ -332,13 +339,6 @@
         "level": 5,
         "element": "water",
         "description": "Description"
-      },
-      {
-        "id": "SP-3",
-        "name": "SP-3",
-        "level": 0,
-        "element": "master",
-        "description": "Description"
       }
     ]
   },
@@ -347,6 +347,13 @@
     "element": "earth",
     "yinYang": "yang",
     "points": [
+        {
+          "id": "ST-42",
+          "name": "ST-42",
+          "level": 0,
+          "element": "master",
+          "description": "Description"
+        },
       {
         "id": "ST-45",
         "name": "ST-45",
@@ -381,13 +388,6 @@
         "level": 5,
         "element": "earth",
         "description": "Description"
-      },
-      {
-        "id": "ST-42",
-        "name": "ST-42",
-        "level": 0,
-        "element": "master",
-        "description": "Description"
       }
     ]
   },
@@ -396,6 +396,13 @@
     "element": "metal",
     "yinYang": "yin",
     "points": [
+        {
+          "id": "LU-9",
+          "name": "LU-9",
+          "level": 0,
+          "element": "master",
+          "description": "Description"
+        },
       {
         "id": "LU-11",
         "name": "LU-11",
@@ -430,21 +437,21 @@
         "level": 5,
         "element": "water",
         "description": "Description"
-      },
-      {
-        "id": "LU-9",
-        "name": "LU-9",
-        "level": 0,
-        "element": "master",
-        "description": "Description"
       }
     ]
   },
-  "largeintestine": {
+  "large intestine": {
     "id": "largeintestine",
     "element": "metal",
     "yinYang": "yang",
     "points": [
+        {
+          "id": "LI-4",
+          "name": "LI-4",
+          "level": 0,
+          "element": "master",
+          "description": "Description"
+        },
       {
         "id": "LI-1",
         "name": "LI-1",
@@ -479,13 +486,6 @@
         "level": 5,
         "element": "earth",
         "description": "Description"
-      },
-      {
-        "id": "LI-4",
-        "name": "LI-4",
-        "level": 0,
-        "element": "master",
-        "description": "Description"
       }
     ]
   },
@@ -494,6 +494,13 @@
     "element": "water",
     "yinYang": "yin",
     "points": [
+        {
+          "id": "KID-3",
+          "name": "KID-3",
+          "level": 0,
+          "element": "master",
+          "description": "Description"
+        },
       {
         "id": "KID-1",
         "name": "KID-1",
@@ -528,13 +535,6 @@
         "level": 5,
         "element": "water",
         "description": "Description"
-      },
-      {
-        "id": "KID-3",
-        "name": "KID-3",
-        "level": 0,
-        "element": "master",
-        "description": "Description"
       }
     ]
   },
@@ -543,6 +543,13 @@
     "element": "water",
     "yinYang": "yang",
     "points": [
+        {
+          "id": "BL-64",
+          "name": "BL-64",
+          "level": 0,
+          "element": "master",
+          "description": "Description"
+        },
       {
         "id": "BL-67",
         "name": "BL-67",
@@ -576,13 +583,6 @@
         "name": "BL-40",
         "level": 5,
         "element": "earth",
-        "description": "Description"
-      },
-      {
-        "id": "BL-64",
-        "name": "BL-64",
-        "level": 0,
-        "element": "master",
         "description": "Description"
       }
     ]
