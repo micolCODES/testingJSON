@@ -11,32 +11,39 @@ struct ContentView: View {
     
     let meridians: [String: Meridian] = Bundle.main.decode("meridiansNacupoints.json")
     @State private var current = "lung"
+    @State private var level = 0
     
-    let listOfMeridians = ["liver","gallbladder","heart","smallintestine","pericardium","tripleheater","spleen","stomach","lung","largeintestine","kidney","bladder"]
+    let listOfMeridians = ["liver","gallbladder","heart","small intestine","pericardium","triple heater","spleen","stomach","lung","large intestine","kidney","bladder"]
     
     var body: some View {
+        let currentMeridian = meridians[current, default: Meridian(id: "Not Known", element: "Unknown", yinYang: "yinYang", points: [])]
+        
         Form {
             Picker("Type of Meridian", selection: $current){
                 ForEach(listOfMeridians, id: \.self) { meridian in
                     Text("\(meridian)")
                 }
             }
-        }
-        VStack(alignment: .leading){
-            let currentMeridian = meridians[current, default: Meridian(id: "Not Known", element: "Unknown", yinYang: "yinYang", points: [])]
-            
-            Text("Total meridians: \(meridians.count)") // "12"
-            Text("First meridian: \(currentMeridian.id)") // "Liver"
-            Text("Acupoints on meridian: \(currentMeridian.points.count)") // liver.points.count -> "6"
-            Text("Element of meridian: \(currentMeridian.element)") // "wood"
+            VStack(alignment: .leading){
+                
+                Text("Total meridians: \(meridians.count)") // "12"
+                Text("First meridian: \(currentMeridian.id)") // "Liver"
+                Text("Acupoints on meridian: \(currentMeridian.points.count)") // liver.points.count -> "6"
+                Text("Element of meridian: \(currentMeridian.element)") // "wood"
+            }
+            Picker("Level", selection: $current){
+                ForEach(0...5, id: \.self) { level in
+                    Text(level != 0 ? "\(level)" : "master")
+                }
+            }
             HStack {
                 VStack(alignment: .leading) {
-                    Text("Level 2 point: ")
+                    Text(level != 0 ? "Level \(level) point" : "Master point")
                 }
                 VStack(alignment: .trailing) {
-                    Text(currentMeridian.points[1].id) // name -> "Liv-2"
-                    Text(currentMeridian.points[1].element) // element -> "fire"
-                    Text(currentMeridian.points[1].description) // description -> "Description"
+                    Text(currentMeridian.points[level].id) // name -> "Liv-2"
+                    Text(currentMeridian.points[level].element) // element -> "fire"
+                    Text(currentMeridian.points[level].description) // description -> "Description"
                 }
             }
         }
