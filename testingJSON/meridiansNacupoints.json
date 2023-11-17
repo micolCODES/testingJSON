@@ -245,7 +245,7 @@
     ]
   },
   "triple heater": {
-    "id": "pericardium",
+    "id": "tripleheater",
     "element": "fire",
     "yinYang": "yang",
     "points": [
