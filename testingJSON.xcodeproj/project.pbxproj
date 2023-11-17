@@ -15,6 +15,7 @@
 		B2DB0D412B052B96004EB179 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB0D402B052B96004EB179 /* Bundle-Decodable.swift */; };
 		B2DB0D432B052BD5004EB179 /* Meridian.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB0D422B052BD5004EB179 /* Meridian.swift */; };
 		B2DB0D452B052BF2004EB179 /* Acupoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB0D442B052BF2004EB179 /* Acupoint.swift */; };
+		B2E45F012B076CEF00B05FFA /* MeridianInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E45F002B076CEF00B05FFA /* MeridianInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B2DB0D402B052B96004EB179 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		B2DB0D422B052BD5004EB179 /* Meridian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meridian.swift; sourceTree = "<group>"; };
 		B2DB0D442B052BF2004EB179 /* Acupoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acupoint.swift; sourceTree = "<group>"; };
+		B2E45F002B076CEF00B05FFA /* MeridianInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeridianInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				B2DB0D302B052A99004EB179 /* testingJSONApp.swift */,
 				B2DB0D322B052A99004EB179 /* ContentView.swift */,
+				B2E45F002B076CEF00B05FFA /* MeridianInfoView.swift */,
 				B2DB0D422B052BD5004EB179 /* Meridian.swift */,
 				B2DB0D442B052BF2004EB179 /* Acupoint.swift */,
 				B2DB0D402B052B96004EB179 /* Bundle-Decodable.swift */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2DB0D452B052BF2004EB179 /* Acupoint.swift in Sources */,
+				B2E45F012B076CEF00B05FFA /* MeridianInfoView.swift in Sources */,
 				B2DB0D332B052A99004EB179 /* ContentView.swift in Sources */,
 				B2DB0D312B052A99004EB179 /* testingJSONApp.swift in Sources */,
 				B2DB0D432B052BD5004EB179 /* Meridian.swift in Sources */,
