@@ -26,7 +26,7 @@ struct MeridianInfoView: View {
            }
            Picker("Level", selection: $level){
                ForEach(0...5, id: \.self) { level in
-                   Text(level != 0 ? "\(level)" : "master")
+                   Text(level != 0 ? "Level \(level) point" : "Master Point")
                }
            }
            HStack {
