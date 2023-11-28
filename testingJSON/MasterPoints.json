@@ -1,0 +1,42 @@
+{
+    "LI-4": {
+      "id": "LI-4",
+      "target": "Face, Mouth",
+      "description": "Description"
+    },
+    "LU-7": {
+      "id": "LU-7",
+      "target": "Head, Neck",
+      "description": "Description"
+    },
+    "PC-6": {
+      "id": "PC-6",
+      "target": "Chest, Cranial Abdomen",
+      "description": "Description"
+    },
+    "BL-40": {
+      "id": "BL-40",
+      "target": "Back, Hips",
+      "description": "Description"
+    },
+    "ST-36": {
+      "id": "ST-36",
+      "target": "GI tract, Abdomen",
+      "description": "Description"
+    },
+    "SP-6": {
+      "id": "SP-6",
+      "target": "Caudal abdomen, Urogen",
+      "description": "Description"
+    },
+    "SI-9": {
+      "id": "SI-9",
+      "target": "Forelimb",
+      "description": "Description"
+    },
+    "BL-54": {
+      "id": "BL-54",
+      "target": "Hind limb",
+      "description": "Description"
+    }
+}
