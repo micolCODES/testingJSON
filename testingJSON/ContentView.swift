@@ -14,38 +14,34 @@ struct ContentView: View {
     
     let listOfMeridians = ["liver","gallbladder","heart","small intestine","pericardium","triple heater","spleen","stomach","lung","large intestine","kidney","bladder"]
     
+    let influentialPoints: [String: ExtraPoint] = Bundle.main.decode("InfluentialPoints.json")
+    
     var body: some View {
         NavigationStack {
-            ForEach(listOfMeridians, id: \.self) { meridian in
-                NavigationLink {
-                    MeridianInfoView(chosenMeridian: meridian)
-                } label: {
-                    Text("\(meridian)")
+            VStack {
+                List {
+                    Section(header: Text("Major Meridians")) {
+                        ForEach(listOfMeridians, id: \.self) { meridian in
+                            NavigationLink {
+                                MeridianInfoView(chosenMeridian: meridian)
+                            } label: {
+                                Text("\(meridian.capitalized)")
+                            }
+                        }
+                    }
+                    Section(header: Text("Extra Points")) {
+                        ForEach(0...influentialPoints.count, id: \.self) { point in
+                            NavigationLink {
+                                let pointToPass = influentialPoints
+                                //ExtraPointView(pointPassed: pointToPass)
+                            } label: {
+                                Text("\(point)")
+                            }
+                        }
+                    }
                 }
             }
         }
-//            VStack(alignment: .leading){
-//                
-//                Text("Total meridians: \(meridians.count)") // "12"
-//                Text("First meridian: \(currentMeridian.id)") // "Liver"
-//                Text("Acupoints on meridian: \(currentMeridian.points.count)") // liver.points.count -> "6"
-//                Text("Element of meridian: \(currentMeridian.element)") // "wood"
-//            }
-//            Picker("Level", selection: $current){
-//                ForEach(0...5, id: \.self) { level in
-//                    Text(level != 0 ? "\(level)" : "master")
-//                }
-//            }
-//            HStack {
-//                VStack(alignment: .leading) {
-//                    Text(level != 0 ? "Level \(level) point" : "Master point")
-//                }
-//                VStack(alignment: .trailing) {
-//                    Text(currentMeridian.points[level].id) // name -> "Liv-2"
-//                    Text(currentMeridian.points[level].element) // element -> "fire"
-//                    Text(currentMeridian.points[level].description) // description -> "Description"
-//                }
-//            }
         .padding()
     }
 }
