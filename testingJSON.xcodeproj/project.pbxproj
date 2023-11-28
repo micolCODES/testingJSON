@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B20E90902B0A5DBA006BF79D /* InfluentialPoints.json in Resources */ = {isa = PBXBuildFile; fileRef = B20E908F2B0A5DBA006BF79D /* InfluentialPoints.json */; };
+		B20E90922B0A5E10006BF79D /* ExtraPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20E90912B0A5E10006BF79D /* ExtraPoint.swift */; };
 		B2DB0D312B052A99004EB179 /* testingJSONApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB0D302B052A99004EB179 /* testingJSONApp.swift */; };
 		B2DB0D332B052A99004EB179 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB0D322B052A99004EB179 /* ContentView.swift */; };
 		B2DB0D352B052A9A004EB179 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DB0D342B052A9A004EB179 /* Assets.xcassets */; };
@@ -16,9 +18,13 @@
 		B2DB0D432B052BD5004EB179 /* Meridian.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB0D422B052BD5004EB179 /* Meridian.swift */; };
 		B2DB0D452B052BF2004EB179 /* Acupoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DB0D442B052BF2004EB179 /* Acupoint.swift */; };
 		B2E45F012B076CEF00B05FFA /* MeridianInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2E45F002B076CEF00B05FFA /* MeridianInfoView.swift */; };
+		B2F4E9442B15287B002F5734 /* MasterPoints.json in Resources */ = {isa = PBXBuildFile; fileRef = B2F4E9432B15287B002F5734 /* MasterPoints.json */; };
+		B2F4E9462B152E2D002F5734 /* ExtraPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F4E9452B152E2D002F5734 /* ExtraPointView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B20E908F2B0A5DBA006BF79D /* InfluentialPoints.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = InfluentialPoints.json; sourceTree = "<group>"; };
+		B20E90912B0A5E10006BF79D /* ExtraPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraPoint.swift; sourceTree = "<group>"; };
 		B2DB0D2D2B052A99004EB179 /* testingJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testingJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2DB0D302B052A99004EB179 /* testingJSONApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testingJSONApp.swift; sourceTree = "<group>"; };
 		B2DB0D322B052A99004EB179 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +35,8 @@
 		B2DB0D422B052BD5004EB179 /* Meridian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meridian.swift; sourceTree = "<group>"; };
 		B2DB0D442B052BF2004EB179 /* Acupoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Acupoint.swift; sourceTree = "<group>"; };
 		B2E45F002B076CEF00B05FFA /* MeridianInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeridianInfoView.swift; sourceTree = "<group>"; };
+		B2F4E9432B15287B002F5734 /* MasterPoints.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MasterPoints.json; sourceTree = "<group>"; };
+		B2F4E9452B152E2D002F5734 /* ExtraPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraPointView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,11 +71,15 @@
 			children = (
 				B2DB0D302B052A99004EB179 /* testingJSONApp.swift */,
 				B2DB0D322B052A99004EB179 /* ContentView.swift */,
+				B2F4E9452B152E2D002F5734 /* ExtraPointView.swift */,
 				B2E45F002B076CEF00B05FFA /* MeridianInfoView.swift */,
+				B20E90912B0A5E10006BF79D /* ExtraPoint.swift */,
 				B2DB0D422B052BD5004EB179 /* Meridian.swift */,
 				B2DB0D442B052BF2004EB179 /* Acupoint.swift */,
 				B2DB0D402B052B96004EB179 /* Bundle-Decodable.swift */,
 				B2DB0D342B052A9A004EB179 /* Assets.xcassets */,
+				B2F4E9432B15287B002F5734 /* MasterPoints.json */,
+				B20E908F2B0A5DBA006BF79D /* InfluentialPoints.json */,
 				B2DB0D3E2B052B42004EB179 /* meridiansNacupoints.json */,
 				B2DB0D362B052A9A004EB179 /* Preview Content */,
 			);
@@ -142,7 +154,9 @@
 			files = (
 				B2DB0D382B052A9A004EB179 /* Preview Assets.xcassets in Resources */,
 				B2DB0D3F2B052B42004EB179 /* meridiansNacupoints.json in Resources */,
+				B2F4E9442B15287B002F5734 /* MasterPoints.json in Resources */,
 				B2DB0D352B052A9A004EB179 /* Assets.xcassets in Resources */,
+				B20E90902B0A5DBA006BF79D /* InfluentialPoints.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,9 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F4E9462B152E2D002F5734 /* ExtraPointView.swift in Sources */,
 				B2DB0D452B052BF2004EB179 /* Acupoint.swift in Sources */,
 				B2E45F012B076CEF00B05FFA /* MeridianInfoView.swift in Sources */,
 				B2DB0D332B052A99004EB179 /* ContentView.swift in Sources */,
+				B20E90922B0A5E10006BF79D /* ExtraPoint.swift in Sources */,
 				B2DB0D312B052A99004EB179 /* testingJSONApp.swift in Sources */,
 				B2DB0D432B052BD5004EB179 /* Meridian.swift in Sources */,
 				B2DB0D412B052B96004EB179 /* Bundle-Decodable.swift in Sources */,
