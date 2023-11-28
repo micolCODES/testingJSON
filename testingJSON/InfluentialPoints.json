@@ -1,0 +1,52 @@
+{
+    "LIV-13": {
+      "id": "LIV-13",
+      "target": "Zang Organs",
+      "description": "Description"
+    },
+    "CV-12": {
+      "id": "CV-12",
+      "target": "Fu Organs",
+      "description": "Description"
+    },
+    "CV-17": {
+      "id": "CV-17",
+      "target": "Qi",
+      "description": "Description"
+    },
+    "BL-17": {
+      "id": "BL-17",
+      "target": "Blood",
+      "description": "Description"
+    },
+    "GB-34": {
+      "id": "GB-34",
+      "target": "Tendon",
+      "description": "Description"
+    },
+    "LU-9": {
+      "id": "LU-9",
+      "target": "Pulse/vessels",
+      "description": "Description"
+    },
+    "BL-11": {
+      "id": "BL-11",
+      "target": "Bone",
+      "description": "Description"
+    },
+    "GB-39": {
+      "id": "GB-39",
+      "target": "Marrow",
+      "description": "Description"
+    },
+    "ST-40": {
+      "id": "ST-40",
+      "target": "Phlegm",
+      "description": "Description"
+    },
+    "BL-12": {
+      "id": "BL-12",
+      "target": "Wind/trachea",
+      "description": "Description"
+    }
+}
