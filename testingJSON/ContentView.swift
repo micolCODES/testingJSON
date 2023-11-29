@@ -14,12 +14,16 @@ struct ContentView: View {
     
     let listOfMeridians = ["liver","gallbladder","heart","small intestine","pericardium","triple heater","spleen","stomach","lung","large intestine","kidney","bladder"]
     
-    let influentialPoints: [String: ExtraPoint] = Bundle.main.decode("InfluentialPoints.json")
+    let listOfInfluentialPoints = ["LIV-13","CV-12","CV-17","BL-17","GB-34","LU-9","BL-11","GB-39","ST-40","BL-12"]
+    
+    let listOfMasterPoints = ["LI-4","LU-7","PC-6","BL-40","ST-36","SP-6","SI-9","BL-54"]
     
     var body: some View {
+        
         NavigationStack {
             VStack {
                 List {
+                    
                     Section(header: Text("Major Meridians")) {
                         ForEach(listOfMeridians, id: \.self) { meridian in
                             NavigationLink {
@@ -29,16 +33,27 @@ struct ContentView: View {
                             }
                         }
                     }
-                    Section(header: Text("Extra Points")) {
-                        ForEach(0...influentialPoints.count, id: \.self) { point in
+                    
+                    Section(header: Text("Influential Points")) {
+                        ForEach(listOfInfluentialPoints, id: \.self) { point in
                             NavigationLink {
-                                let pointToPass = influentialPoints
-                                //ExtraPointView(pointPassed: pointToPass)
+                                ExtraPointView(chosenPoint: point, typeOfPoint: true)
                             } label: {
                                 Text("\(point)")
                             }
                         }
                     }
+                    
+                    Section(header: Text("Master Points")) {
+                        ForEach(listOfMasterPoints, id: \.self) { point in
+                            NavigationLink {
+                                ExtraPointView(chosenPoint: point, typeOfPoint: false)
+                            } label: {
+                                Text("\(point)")
+                            }
+                        }
+                    }
+                    
                 }
             }
         }
