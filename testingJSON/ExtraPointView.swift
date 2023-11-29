@@ -8,13 +8,24 @@
 import SwiftUI
 
 struct ExtraPointView: View {
-    var pointPassed: ExtraPoint
+    
+    var chosenPoint: String
+    var typeOfPoint: Bool
+    
+    let influentialPoints: [String: ExtraPoint] = Bundle.main.decode("InfluentialPoints.json")
+    
+    let masterPoints: [String: ExtraPoint] = Bundle.main.decode("MasterPoints.json")
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        let influentialPoint = influentialPoints[chosenPoint, default: ExtraPoint(id: "Not Known", target: "Unknown", description: "Unknown")]
+        let masterPoint = masterPoints[chosenPoint, default: ExtraPoint(id: "Not Known", target: "Unknown", description: "Unknown")]
+        Text(typeOfPoint ? "Influential Point" : "Master Point")
+        Text("id: \(typeOfPoint ? influentialPoint.id : masterPoint.id)")
+        Text("target: \(typeOfPoint ? influentialPoint.target : masterPoint.target)")
+        Text("description: \(typeOfPoint ? influentialPoint.description : masterPoint.description)")
     }
 }
 
 #Preview {
-    ExtraPointView()
+    ExtraPointView(chosenPoint: "CV-12", typeOfPoint: true)
 }
